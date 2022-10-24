@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>My Portfolio</title>
 </head>
 <body>
-
-    <nav> <!--NavBar!-->
-        <a href="Index.html">Logo<img src="" alt=""></a>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="Index.html#Work">Work</a></li>
-            <li><a href="Index.html#About">About</a></li>
-            <li><a href="Index.html#Resume">Resume</a></li>
-            <li><a href="Index.html#Contact">Contact</a></li>
-        </ul>
-    </nav>
+    <header>
+        <a href="Index.html" class="logo">Logo<img src="" alt=""></a>
+        <nav class="nav-bar"> <!--NavBar!-->
+                <ul class="menu">
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Index.html#Work">Work</a></li>
+                    <li><a href="Index.html#About">About</a></li>
+                    <li><a href="Index.html#Resume">Resume</a></li>
+                    <li><a href="Index.html#Contact">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
 
 <main>
 
-    <div> <!--Slide!-->
-        <div>
+    <div> 
             <div>
                 <a href="https://web.telegram.org/" target="_blank"><img src="/Img/icon/icons8-télégramme-app-240.svg" alt="logo telegram " height="50px" width="50px"></a>
                 <a href="https://twitter.com/" target="_blank"><img src="/Img/icon/icons8-twitter-entouré-240.svg" alt="Logo Twitter " height="50px" width="50px"></a>
                 <a href="https://fr.linkedin.com/" target="_blank"><img src="/Img/icon/icons8-linkedin-entouré-240.svg" alt="Logo Linkdin " height="50px" width="50px"></a>
             </div>
-            <section>
-                <H1>Jonathan Doe</H1>
-                <p>I'm Jonathan, professional web developer with long time experience in this field</p>
-            </section>
+            
+
+                <div class="row">
+                    <div class="col">
+                        <H1>Jonathan Doe</H1>
+                        <p>I'm Jonathan, professional web developer with long time experience in this field</p>
+                        <button type="button"> My Portofolio </button>
+                    </div>
+                </div>
             <div>
-                <button type="button"> My Portofolio </button>
-                <audio src="" controls="controls" preload="auto"> text audio </audio>
+                
+                 <audio src="" controls="controls" preload="auto"> text audio </audio>
             </div>
             <div>
-                <img src="Img/undraw_pic_profile_re_1865.svg" alt="Pic of Me" height="250px" width="250px">
+                <img src="Img/undraw_pic_profile_re_1865.svg" alt="Pic of Me" height="250px" width="250px"> 
             </div>
-        </div>
     </div>
 
 
